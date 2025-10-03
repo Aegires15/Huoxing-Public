@@ -8,3 +8,4 @@ armor: 40
   cast-ingot/10
   ]
   buildVisibility: sandboxOnly
+category: defense

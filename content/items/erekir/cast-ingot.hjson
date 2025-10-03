@@ -2,3 +2,6 @@ name: Cast Ingot
 description: An ingot formed from beryllium and trace metals in slag. Effective for reinforcing structures, ammunition, or as unit armor.
   cost: 1.6
   hardness: 2
+shownPlanets: [
+erekir
+]

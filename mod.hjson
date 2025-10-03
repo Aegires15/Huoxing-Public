@@ -1,0 +1,10 @@
+name: huoxing
+displayName: Huoxing
+author: Incite/Aegires
+description:
+  '''
+ At first... it was one of us...
+Do not play with other mods installed! It will break balance!
+  '''
+version: alpha 0.1
+minGameVersion: 152

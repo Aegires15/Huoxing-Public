@@ -1,0 +1,37 @@
+type: GenericCrafter
+  name: Foundry
+  description: Casts ingots from melted beryllium and trace metals found in slag.
+  size: 3
+  consumes: {
+power: 10
+  items: [
+beryllium/4
+  ]
+liquid: {
+liquid: slag
+  amount: 1
+  }
+}
+drawer: [
+{
+type: DrawRegion
+  suffix: "-bottom"
+  }
+  {
+type: DrawArcSmelt
+  }
+{
+type: DrawDefault
+  }
+]
+requirements: [
+  silicon/200
+  graphite/200
+  beryllium/150
+  tungsten/120
+  ]
+  category: crafting
+  outputItem: cast-ingot/5
+  buildVisibility: sandboxOnly
+envEnabled: -1
+envDisabled: 4

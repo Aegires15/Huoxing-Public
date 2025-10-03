@@ -1,0 +1,10 @@
+type: Wall
+  name: Cast Ingot Wall
+description: Wall that does not take damage from lighter attacks.
+armor: 40
+  health: 600
+  size: 1
+  requirements: [
+  cast-ingot/10
+  ]
+  buildVisibility: sandboxOnly

@@ -1,4 +1,5 @@
 type: flying
+template: ErekirUnitType
   name: Border
   description: Fires alternating bullets at enemy targets.
   flying: true

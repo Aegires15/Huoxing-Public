@@ -1,0 +1,26 @@
+type: flying
+  name: Border
+  description: Fires alternating bullets at enemy targets.
+  flying: true
+  health: 400
+  armor: 1
+  speed: 3.2
+  weapons: [
+  {
+  name: none
+  x: 0
+    y: 0
+    reload: 35
+    alternate: true
+    mirror: true
+    bullet: {
+type: BasicBulletType
+  damage: 11
+  speed: 3
+  lifetime: 40
+  backColor: e28654
+trailColor: e28654
+  frontColor: ffffa3
+  }
+}
+]

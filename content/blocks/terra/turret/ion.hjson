@@ -1,0 +1,18 @@
+type: PowerTurret
+  name: Ion
+  description: Fires a laser blast at enemy ground targets within range.
+  details: A crude solution to the heavily armored enemy regiments back when the weapon was first created. Now, it is used to melt down defective units for reprocessing.
+size: 2
+  health: 600
+  range: 160
+  reload: 120
+  shootType: {
+type: LaserBulletType
+  damage: 200
+  pierceArmor: true
+  pierce: true
+  pierceCap: 4
+  length: 160
+  }
+buildVisibility: sandboxOnly
+  category: turret

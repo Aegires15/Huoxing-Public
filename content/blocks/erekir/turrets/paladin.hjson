@@ -1,0 +1,47 @@
+type: ItemTurret
+  name: Paladin
+  description: Fires alternating bullets at enemy targets.
+  range: 160
+  size: 3
+  reload: 20 
+  
+shoot: {
+        type: ShootMulti
+        source: {
+          type: ShootAlternate
+          barrels: 2
+          shots: 1
+            spread: 5
+        },
+  drawer: {
+type: DrawTurret
+  basePrefix: reinforced-
+  parts: [
+  {
+type: RegionPart
+  suffix: -r-barrel
+    x: 4
+    y: 2
+    moves: {
+y: -1
+  progress: recoil
+  op: blend
+  under: true
+  }
+}
+{
+type: RegionPart
+  suffix: -l-barrel
+    x: -44
+    y: 2
+    moves: {
+y: -1
+  progress: recoil
+  op: blend
+  under: true
+  }
+}
+]
+}
+ammoTypes: {
+beryllium: {

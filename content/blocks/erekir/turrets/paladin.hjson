@@ -9,8 +9,8 @@ recoils: 2
 shoot: {
         type: ShootBarrel
         barrels: [
-    5, 2, 0,
     -5, 2, 0,
+    5, 2, 0,
   ]
   shots: 1
 }

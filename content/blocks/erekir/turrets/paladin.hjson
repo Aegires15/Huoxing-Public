@@ -6,13 +6,14 @@ type: ItemTurret
   reload: 20 
   
 shoot: {
-        type: ShootMulti
-        source: {
-          type: ShootAlternate
-          barrels: 2
-          shots: 1
-            spread: 5
-        },
+        type: ShootBarrel
+        barrels: [
+    0, 0, 7,
+    0, 0, 0,
+    0, 0, -7,
+  ]
+  shots: 1
+}
   drawer: {
 type: DrawTurret
   basePrefix: reinforced-
@@ -45,3 +46,12 @@ y: -1
 }
 ammoTypes: {
 beryllium: {
+damage: 35.75
+speed: 4
+lifetime: 35
+pierce: true
+pierceCap: 3
+ammoMultiplier: 1
+}
+}
+buildVisibility: sandboxOnly

@@ -3,7 +3,7 @@ type: ItemTurret
   description: Fires alternating bullets at enemy targets.
   range: 160
   size: 3
-  reload: 20 
+  reload: 18
   health: 1500
 shoot: {
         type: ShootBarrel
@@ -20,7 +20,7 @@ type: DrawTurret
   {
 type: RegionPart
   suffix: -r-barrel
-    x: 3
+    x: 2
     y: 2
     moves: [
 {
@@ -36,7 +36,7 @@ end: 0.5
 {
 type: RegionPart
   suffix: -l-barrel
-    x: -3
+    x: -2
     y: 2
     moves: [
 {

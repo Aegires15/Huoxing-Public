@@ -24,7 +24,7 @@ type: RegionPart
     x: 2
     y: 1.5
 mirror: false
-recoilIndex: 1
+recoilIndex: 0
     moves: [
 {
 y: -3.5
@@ -42,7 +42,7 @@ type: RegionPart
   suffix: -l-barrel
     x: -2
     y: 1.5
-recoilIndex: 0
+recoilIndex: 1
     moves: [
 {
 y: -3.5

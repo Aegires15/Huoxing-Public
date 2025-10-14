@@ -5,6 +5,7 @@ type: ItemTurret
   size: 3
   reload: 18
   health: 1500
+recoils: 2
 shoot: {
         type: ShootBarrel
         barrels: [
@@ -22,12 +23,14 @@ type: RegionPart
   suffix: -r-barrel
     x: 2
     y: 1.5
+mirror: false
     moves: [
 {
 y: -3.5
   progress: recoil
   op: blend
   under: true
+mirror: false
 start: 0
 end: 0.5
 recoilIndex: 1

@@ -22,7 +22,6 @@ type: RegionPart
   suffix: -r-barrel
     x: 2
     y: 1.5
-recoilIndex: 1
     moves: [
 {
 y: -3.5
@@ -31,6 +30,7 @@ y: -3.5
   under: true
 start: 0
 end: 0.5
+recoilIndex: 1
 }
   ]
 }
@@ -39,10 +39,10 @@ type: RegionPart
   suffix: -l-barrel
     x: -2
     y: 1.5
-recoilIndex: 0
     moves: [
 {
 y: -3.5
+recoilIndex: 0
   progress: recoil
   op: blend
   under: true

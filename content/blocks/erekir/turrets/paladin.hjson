@@ -22,24 +22,32 @@ type: RegionPart
   suffix: -r-barrel
     x: 4
     y: 2
-    moves: {
+    moves: [
+{
 y: -3
   progress: recoil
   op: blend
   under: true
-  }
+start: 0
+end: 0.5
+}
+  ]
 }
 {
 type: RegionPart
   suffix: -l-barrel
     x: -4
     y: 2
-    moves: {
+    moves: [
+{
 y: -3
   progress: recoil
   op: blend
   under: true
+start: 0
+end: 0.5
   }
+]
 }
 ]
 }
@@ -54,3 +62,4 @@ ammoMultiplier: 1
 }
 }
 buildVisibility: sandboxOnly
+category: turret

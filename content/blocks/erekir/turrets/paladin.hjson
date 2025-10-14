@@ -18,7 +18,24 @@ shoot: {
 type: DrawTurret
   basePrefix: reinforced-
   parts: [
-  {
+{
+type: RegionPart
+  suffix: -l-barrel
+    x: -2
+    y: 1.5
+recoilIndex: 1
+    moves: [
+{
+y: -3.5
+  progress: recoil
+  op: blend
+  under: true
+start: 0
+end: 0.5
+  }
+]
+}
+{
 type: RegionPart
   suffix: -r-barrel
     x: 2
@@ -36,23 +53,6 @@ start: 0
 end: 0.5
 }
   ]
-}
-{
-type: RegionPart
-  suffix: -l-barrel
-    x: -2
-    y: 1.5
-recoilIndex: 1
-    moves: [
-{
-y: -3.5
-  progress: recoil
-  op: blend
-  under: true
-start: 0
-end: 0.5
-  }
-]
 }
 ]
 }

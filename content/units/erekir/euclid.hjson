@@ -25,7 +25,8 @@ type: BasicBulletType
   frontColor: d1efff
   backColor: 8ba9e8
   trailColor: 8ba9e8
-  trailEffect: {
+  trailEffect: [
+{
 type: ParticleEffect
   particles: 4
   cone: 30
@@ -33,6 +34,7 @@ type: ParticleEffect
   colorFrom: d1efff
   colorTo: 8ba9e8
   }
+]
   }
 }
 ]

@@ -1,0 +1,38 @@
+type: legs
+  template: ErekirUnitType
+    name: Euclid
+  description: Fires charged bullets at enemy targets.
+  health: 1000
+  speed: 0.5
+  armor: 8
+  legs: 4
+  weapons: [
+  {
+  name: side-weapon-alt
+    x: 3
+    y: 0
+    reload: 20
+    mirror: true
+    alternate: true
+    bullet: {
+type: BasicBulletType
+  damage: 18
+  speed: 4
+  lifetime: 40
+  lightning: 3
+  lightningCone: 30
+  lightningDamage: 10
+  frontColor: d1efff
+  backColor: 8ba9e8
+  trailColor: 8ba9e8
+  trailEffect: {
+type: ParticleEffect
+  particles: 4
+  cone: 30
+  line: true
+  colorFrom: d1efff
+  colorTo|: 8ba9e8
+  }
+  }
+}
+]

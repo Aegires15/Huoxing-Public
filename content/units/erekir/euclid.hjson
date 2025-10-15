@@ -11,6 +11,7 @@ type: legs
   name: side-weapon-alt
     x: 4.5
     y: 0
+under: true
     reload: 20
     mirror: true
     alternate: true

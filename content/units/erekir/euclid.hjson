@@ -26,6 +26,7 @@ type: BasicBulletType
   frontColor: d1efff
   backColor: 8ba9e8
   trailColor: 8ba9e8
+trailLength: 12
   trailEffect: [
 {
 type: ParticleEffect
